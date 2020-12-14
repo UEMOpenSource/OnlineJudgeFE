@@ -32,7 +32,8 @@ before_deploy:
 deploy:
   provider: releases
   skip_cleanup: true
-  api_key: 4f12cc3f335012b3a49b48e3957ce44b58d9c996
+  api_key: 
+    scure: M/FIkn+yKipLCWs6xgqMtaA3R005h35mzbZD/LhIvc7jNHXizu76+UafPFzhZ7PdSdo7gbL8gxcfFK9ZmQDzVUMDGo3gGln/eolbgVQ2T7gmfJvLz5ahW9JmEVHGL62YerlCU5k9DWhwNqQ7DaIBYGfoG6nJw6SW7GPn/X5fvvp8maI/QRI9e07mMbscyuqpSR2Mng6LfTF5CZayXVXIx0giPpRAQETBj9WHXMsOE1qc1e7PpPxwqlAzWUaiHXQ0fLjB14dPandtcLnRJ0CWWC87EMG4iGbCApdO762sHkHhtW6z6JeUgv05rr65KDPp95BlKVx5SnLLRyucIWQoavUmNNh10EVeNiU1o//fMTRm+6iHyXwbWWAtqLRPS1Pk8v1a48C79KQej28NlAD4vmkU3K2WqB/6trpBvkLh78sFM7kDGdpoZ7mZpuzU38y9mEy0hBNPeH4zXjP2Cz8LNCXGrM5irTPskNgpZAviWeFAkFIXTKDUqim+9MMxybB75wWAn/yyoXeLoKgddJZYTQoCSbmKcJukuODzvHwm9H/FI2myfjjYY/+ka3R8TAcg33rUGCkxUKSEgGpyHtr442nrIY+Lz9Q8eILbGpQxgJ40M0/QRsMjIj0QAGJ1mf83Tbra3vVj3FDz92KER/FwpoqvP4tkNjE/bugFbNoh3lg=
   file: dist.zip
   on:
     repo: CUEMCF/OnlineJudgeFE
