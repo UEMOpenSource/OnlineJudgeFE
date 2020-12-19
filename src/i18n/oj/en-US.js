@@ -231,6 +231,7 @@ export const m = {
   Lang: 'Lang',
   Share: 'Share',
   UnShare: 'UnShare',
+  BackLast: 'Go back',
   Succeeded: 'Succeeded',
   Real_Time: 'Real Time',
   Signal: 'Signal',

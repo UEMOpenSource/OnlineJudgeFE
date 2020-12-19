@@ -231,6 +231,7 @@ export const m = {
   Lang: '语言',
   Share: '分享',
   UnShare: '不分享',
+  BackLast: '回到上一页',
   Succeeded: '成功',
   Real_Time: '真实时间',
   Signal: '信号',

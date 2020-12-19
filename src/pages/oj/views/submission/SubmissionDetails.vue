@@ -36,6 +36,11 @@
           {{$t('m.Share')}}
         </Button>
       </div>
+      <div id="back-btn">
+        <Button type="primary" size="large" @click="backLastPage()">
+          {{$t('m.BackLast')}}
+        </Button>
+      </div>
     </Col>
   </Row>
 
@@ -153,6 +158,9 @@
           this.$success(this.$i18n.t('m.Succeeded'))
         }, () => {
         })
+      },
+      backLastPage () {
+        window.history.back()
       }
     },
     computed: {
@@ -201,6 +209,12 @@
   }
 
   #share-btn {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  #back-btn {
     float: right;
     margin-top: 5px;
     margin-right: 10px;
